@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesomebooks</title>
+ </head>
 <body>
-    <h1>Awesome Books</h1>
-    <div id="bitems"></div>
-    <hr>
-    <form id="bookslist">
 
-    <input type="text"  name="title" placeholder="Title" id="title">
-        <br>
-        <input type="text" name="author" placeholder="Author" id="author">
-        <br>
-        <button type="submit" id="btn">Add</button>
-    </form>
+  <main>
+      <section class="mybooks">
+        <div class="title">
+          <h2>All awesome books</h2>
+        </div>
+        <div class="container">
+          <ul class="list">
+            <li class="display-list">
+              <p>Title by Author</p> <a href="" class="remove-btn">Remove</a>
+            </li>
+            <li class="display-list">
+              <p>Title by Author</p><a href="" class="remove-btn">Remove</a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <script src="script.js"></script>
+      <section class="addnew" id="addnew-section">
+        <div class="title">
+          <h2>Add a new book</h2>
+        </div>
+        <div class="container">
+          <form id="form">
+            <input type="text" id="mytitle" name="title" placeholder="Title" required /> <br><br>
+            <input type="text" id="myauthor" name="author" placeholder="Author" required />
+            <div class="btn">
+              <button type="submit">Add</button>
+            </div>
+          </form>
+        </div>
+    </section>
+  </main>
+  <script src='script.js'></script>
 </body>
 </html>
