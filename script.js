@@ -25,8 +25,7 @@ let str = '';
 if (JSON.parse(localStorage.getItem('mybooks')) === null || data.length === 0) {
   str = '<li class="display-list">No book stored!</li>';
 } else {
-
-  /* exported arr */
+  /* eslint-disable-next-line no-unused-vars */
   const arr = data.map((obj) => {
     str += `<li class="display-list">
          <p> Book Title: ${obj.title}  Book author :${obj.author}</p>
