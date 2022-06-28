@@ -37,7 +37,7 @@ Follow the steps described before.
 
 
 
-## collaborator2
+## Collaborator2
 
 👤 **Alfred W. Kinyua**
 
