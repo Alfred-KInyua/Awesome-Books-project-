@@ -33,10 +33,6 @@ Any modern web browser will do.
 
 Follow the steps described before.
 
-## Author
-
-
-
 ## Collaborator2
 
 👤 **Alfred W. Kinyua**
