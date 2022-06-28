@@ -37,7 +37,14 @@ Follow the steps described before.
 
 
 
-## collaborator1
+## collaborator2
+
+👤 **Alfred W. Kinyua**
+
+- GitHub: [@githubhandle](https://github.com/Alfred-Kinyua/)
+- Twitter: [@twitterhandle](@alfkinyua)
+- LinkedIn: [LinkedIn](linkedin.com/in/alfred-kinyua-25927a64)
+
 
 👤 **George D. Kruah**
 
@@ -46,9 +53,6 @@ Follow the steps described before.
 - Twitter: [@DKruah](https://github.com/Kruah)
 
 
-
-
-plain-Js-with-Objects
 ## 🤝  Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -68,4 +72,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-# Awesome-Books-project-
