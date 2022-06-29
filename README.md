@@ -33,11 +33,7 @@ Any modern web browser will do.
 
 Follow the steps described before.
 
-## Author
-
-
-
-## collaborator2
+## Collaborator2
 
 👤 **Alfred W. Kinyua**
 
