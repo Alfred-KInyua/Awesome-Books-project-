@@ -61,15 +61,14 @@ that is the book titile and author */
 
 const alfred = new Books(formTitle, formAuthor); // instantiate class Books with alfred object
 
-
-
-
-
-
-
+document.getElementById('form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  alfred.addbook();
+  Books.reset();
+  Books.retrieve();
+});
 
 Books.retrieve();
-
 document.querySelectorAll('#erase').forEach((button, id) => {
   button.addEventListener('click', () => {
     Books.dellbooks(id);
