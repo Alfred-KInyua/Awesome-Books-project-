@@ -37,13 +37,13 @@ that is the book titile and author */
 
     let str = '';
     if (data === null || data.length === 0) {
-      str = '<p class="list-item">No more books!</p>';
+      str = '<div class="list-item">No more books!</div>';
     } else {
       data.forEach((book) => {
-        str += `<li class="list-item">
-          <p>${book.title} by ${book.author}</p>
-          <a href="" class="remove-btn" id="erase"><button class="bt">Remove</button></a>
-        </li>`;
+        str += `<table class="list-item ">
+          <tr><td class ="cud">${book.title} </td><td>by</td> <td>${book.author}</td>
+         <td><a href="" class="remove-btn" id="erase"><button>Remove</button></a></td></tr>
+        </table>`;
       });
     }
     booklist.innerHTML = str;

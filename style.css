@@ -1,9 +1,54 @@
-body {
-  box-sizing: border-box;
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
 }
 
-.bt {
-  background-color: red;
-  color: white;
-  font-weight: 500;
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(5, 5, 5, 0.116);
+}
+
+.list-item {
+  border: white;
+}
+
+hr {
+  background-color: black;
+  width: 10%;
+  transform: translate(0%, 362%);
+}
+
+.addnew,
+.mybooks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type='text'] {
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+  padding: 5px;
+}
+
+h2 {
+  width: 400%;
+  margin: 10px;
+  padding: 0;
+}
+
+.remove-btn {
+  padding-left: 100px;
 }

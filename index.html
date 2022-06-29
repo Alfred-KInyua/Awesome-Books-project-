@@ -9,38 +9,30 @@
  </head>
 <body>
 
-  <main>
+  <div class="wrapper">
       <section class="mybooks">
-        <div class="title">
-          <h2>All awesome books</h2>
-        </div>
-        <div class="container">
-          <ul class="list">
-            <li class="display-list">
-              <p>Title by Author</p> <a href="" class="remove-btn">Remove</a>
-            </li>
-            <li class="display-list">
-              <p>Title by Author</p><a href="" class="remove-btn">Remove</a>
-            </li>
-          </ul>
+        <div class="title"><h2>All awesome books</h2></div>
+        <div class="tables">
+          <table>           
+          <tbody class="list">            
+          </tbody>
+        </table>
         </div>
       </section>
-
-      <section class="addnew" id="addnew-section">
+      <hr>
+      <section class="addnew">   
         <div class="title">
           <h2>Add a new book</h2>
         </div>
-        <div class="container">
-          <form id="form">
+         <form id="form">
             <input type="text" id="mytitle" name="title" placeholder="Title" required /> <br><br>
             <input type="text" id="myauthor" name="author" placeholder="Author" required />
             <div class="btn"> <br>
-              <button type="submit">Add Books</button>
+            <div class ="btn"><button type="submit">Add</button></div>
             </div>
-          </form>
-        </div>
+          </form>        
     </section>
-  </main>
+  </div>
   <script src='script.js'></script>
 </body>
 </html>
