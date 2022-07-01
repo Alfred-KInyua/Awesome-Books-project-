@@ -1,3 +1,33 @@
+const listSection = document.querySelector('.list-section');
+const addsection = document.querySelector('.add-section');
+const contactSection = document.querySelector('.contact-section');
+const firstMenu = document.querySelector('#top-list');
+const secondMenu = document.querySelector('#top-Add');
+const thirdMenu = document.querySelector('#top-contact');
+document.querySelectorAll('.menu-items').forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    firstMenu.addEventListener('click', () => {
+      listSection.style.display = 'flex';
+      listSection.style.flexDirection = 'column';
+      listSection.style.justifyContent = 'center';
+      addsection.style.display = 'none';
+      contactSection.style.display = 'none';
+    });
+    secondMenu.addEventListener('click', () => {
+      listSection.style.display = 'none';
+      addsection.style.display = 'block';
+      contactSection.style.display = 'none';
+    });
+    thirdMenu.addEventListener('click', () => {
+      listSection.style.display = 'none';
+      addsection.style.display = 'none';
+      contactSection.style.display = 'flex';
+      contactSection.style.flexDirection = 'column';
+      contactSection.style.alignItems = 'center';
+    });
+  });
+});
 const formTitle = document.querySelector('#mytitle');
 const formAuthor = document.querySelector('#myauthor');
 class Books {
@@ -37,7 +67,7 @@ that is the book titile and author */
 
     let str = '';
     if (data === null || data.length === 0) {
-      str = '<div class="list-item">No more books!</div>';
+      str = '<div class="list-item"><h3>No more books!</h3></div>';
     } else {
       data.forEach((book) => {
         str += `<table class="list-item ">
