@@ -68,8 +68,6 @@ that is the book titile and author */
     let str = '';
     if (data === null || data.length === 0) {
       str = '<div class="list-item"><h3>No more books!</h3></div>';
-
-      
     } else {
       data.forEach((book) => {
         str += `<table class="list-item ">
